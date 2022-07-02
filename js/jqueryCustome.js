@@ -12,7 +12,7 @@ $(document).ready(function() {
     initCountDown();
     // count down init
     function initCountDown() {
-        var newDate = new Date(2019, 12, 20);
+        var newDate = new Date(2022, 6, 20);
 
         jQuery("#defaultCountdown").countdown({until: newDate});
     }
